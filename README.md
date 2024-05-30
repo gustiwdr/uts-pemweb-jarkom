@@ -20,15 +20,15 @@ Langkah pembuatan fitur:
 - php artisan make:request MassDestroyCategoryRequest.php
 - php artisan make:request StoreCategoryRequest.php
 - php artisan make:request UpdateCategoryRequest.php
-16. Buat folder baru pada resources/views/admin untuk Menu dan Category
-17. Buat file blade berupa create, edit, index, dan show di dalam masing-masing folder views Menu dan Category
-18. Isi Migration Menu dan Category
-19. Isi Model Menu dan Category, tambahkan relasi untuk keduanya
-20. Isi View Menu dan Category
-21. Atur MenuController dan CategoryController
-22. Tambahkan seeders dan atur roles juga permission-nya
-23. Atur tampilan frontend untuk admin pada cruds.php (di resources/lang/en) dan menu.blade.php (di resources/views/partials)
-24. Atur route-nya
-25. Lakukan php artisan migrate:fresh
-26. Lakukan php artisan db:seed
-27. Tabel Menu dan Category pada tampilan admin sudah dapat diakses
+12. Buat folder baru pada resources/views/admin untuk Menu dan Category
+13. Buat file blade berupa create, edit, index, dan show di dalam masing-masing folder views Menu dan Category
+14. Isi Migration Menu dan Category
+15. Isi Model Menu dan Category, tambahkan relasi untuk keduanya
+16. Isi View Menu dan Category
+17. Atur MenuController dan CategoryController
+18. Tambahkan seeders dan atur roles juga permission-nya
+19. Atur tampilan frontend untuk admin pada cruds.php (di resources/lang/en) dan menu.blade.php (di resources/views/partials)
+20. Atur route-nya
+21. Lakukan php artisan migrate:fresh
+22. Lakukan php artisan db:seed
+23. Tabel Menu dan Category pada tampilan admin sudah dapat diakses
